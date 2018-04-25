@@ -58,7 +58,7 @@ class App extends Component {
     }
     getSelectedMovie(id) {
         if (!id || typeof id !== "number") return null;
-        if (id < 0) return Object.assign(initMovie);
+        if (id < 0) return Object.assign({}, initMovie);
         return this.props.moviesData.movies.find(movie => movie.id === id);
     }
     render() {
