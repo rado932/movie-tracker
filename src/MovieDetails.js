@@ -37,27 +37,27 @@ class MovieDetails extends Component {
     }
     onNameChange(e) {
         this.setState({
-            movie: Object.assign(this.state.movie, {name: e.target.value})
+            movie: Object.assign({}, this.state.movie, {name: e.target.value})
         });
     }
     onYearChange(e) {
         this.setState({
-            movie: Object.assign(this.state.movie, {year: e.target.value})
+            movie: Object.assign({}, this.state.movie, {year: e.target.value})
         });
     }
     onGenreChange(e) {
         this.setState({
-            movie: Object.assign(this.state.movie, {genre: e.target.value})
+            movie: Object.assign({}, this.state.movie, {genre: e.target.value})
         });
     }
     onDescriptionChange(e) {
         this.setState({
-            movie: Object.assign(this.state.movie, {description: e.target.value})
+            movie: Object.assign({}, this.state.movie, {description: e.target.value})
         });
     }
     onImageUrlChange(e) {
         this.setState({
-            movie: Object.assign(this.state.movie, {imageUrl: e.target.value})
+            movie: Object.assign({}, this.state.movie, {imageUrl: e.target.value})
         });
     }
     onSubmit(event) {
