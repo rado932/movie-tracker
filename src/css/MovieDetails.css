@@ -1,0 +1,58 @@
+input, textarea {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.my-input:-moz-read-only {
+    border: 1px solid transparent;
+}
+
+.my-input:read-only {
+    border: 1px solid transparent;
+}
+
+.edit-checkbox-label {
+    padding-right: .2em;
+    float: right;
+}
+
+.edit-checkbox {
+    font-size: 1.2em;
+}
+.edit-checkbox.edit-active {
+    color: #007FFF;
+}
+.edit-submit-button {
+    background-color: #007FFF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: right;
+}
+
+.edit-submit-button:hover {
+    background-color: #005BEA;
+    color: white;
+}
+
+.movie-details-form .movie-description-item>label>span,
+.movie-details-form .movie-description-item>label>input,
+.movie-details-form .movie-description-item>label>textarea {
+    margin: .3em 0;
+}
+
+.w-30-1em {
+    width: calc(30% - 1em);
+    text-align: right;
+    padding-right: 1em;
+}

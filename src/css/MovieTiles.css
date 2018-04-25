@@ -1,0 +1,39 @@
+.movie-tile {
+    margin-left: .5em;
+    margin-top: .2em;
+    margin-down: .2em;
+    padding: .2em;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.movie-tile-poster {
+    margin: .2em;
+}
+.active-tile, .movie-tile:hover {
+    background: #007FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: white;
+}
+.movie-tile-details {
+    padding: 0 .5em;
+}
+.movie-tile-details div {
+    padding: .1em 0;
+}
+.movie-tile-name {
+    font-size: 1.2em;
+}
+.movie-tile-genre, .movie-tile-year {
+    font-size: .9em;
+}
+.new-movie-tile {
+    text-align: center;
+    font-size: 2em;
+    padding: .6em;
+}
